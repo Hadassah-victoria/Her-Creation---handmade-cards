@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Her Creations</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Quicksand:wght@400;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="her.png" alt="Her Creations Logo">
+      <span class="brand-name">Her Creations</span>
+    </div>
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#review">Review</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-heart" onclick="alert('Favorites clicked')"></i>
+      <i class="fas fa-shopping-cart" onclick="alert('Cart clicked')"></i>
+      <i class="fas fa-user" onclick="alert('Profile clicked')"></i>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Celebrate Life’s Moments</h1>
+      <h2>With Personal Touch & Handmade Charm</h2>
+      <p>At Her Creations, we craft heartfelt gifts and greeting cards that make every occasion unforgettable. Designed
+        with love, sent with meaning.</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+    <div class="hero-image">
+      <img src="maincard.jpeg" alt="Greeting Card">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2 class="section-title"><span>About</span> Us</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="her.png" alt="Her Creations Logo">
+      </div>
+      <div class="about-text">
+        <h3>Why Choose Us</h3>
+        <p>
+          At Her Creations, every greeting card and gift is more than just a product — it's a handcrafted expression of
+          emotion. We combine artistic elegance with heartfelt messaging to turn ordinary moments into treasured
+          memories.
+        </p>
+        <p>
+          From personalized packaging to thoughtful details, our boutique approach ensures that each item you choose is
+          made with intention, charm, and love.
+        </p>
+        <button class="btn">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Highlights Section -->
+  <section id="services" class="services">
+    <div class="services-container">
+      <div class="service-box">
+        <i class="fas fa-shipping-fast"></i>
+        <h4>Free Shipping</h4>
+        <p>Available on all domestic orders</p>
+      </div>
+      <div class="service-box">
+        <i class="fas fa-undo"></i>
+        <h4>10 Days Returns</h4>
+        <p>Guaranteed hassle-free returns</p>
+      </div>
+      <div class="service-box">
+        <i class="fas fa-gift"></i>
+        <h4>Gift-Ready</h4>
+        <p>Each product packed with love</p>
+      </div>
+      <div class="service-box">
+        <i class="fas fa-lock"></i>
+        <h4>Secure Payment</h4>
+        <p>Trusted payment options</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h2 class="section-title">Latest <span>Products</span></h2>
+    <div class="product-container">
+      <!-- Product 1 -->
+      <div class="product-box">
+        <span class="discount">-10%</span>
+        <img src="greeting1.jpg" alt="Product 1">
+        <div class="product-overlay">
+          <button class="product-btn"><i class="fas fa-heart"></i></button>
+          <button class="product-btn">Add To Cart</button>
+          <button class="product-btn"><i class="fas fa-share"></i></button>
+        </div>
+        <h3>Product 1</h3>
+        <p class="price">₹200 <span>₹300</span></p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-box">
+        <span class="discount">-15%</span>
+        <img src="greeting2.jpg" alt="Product 2">
+        <div class="product-overlay">
+          <button class="product-btn"><i class="fas fa-heart"></i></button>
+          <button class="product-btn">Add To Cart</button>
+          <button class="product-btn"><i class="fas fa-share"></i></button>
+        </div>
+        <h3>Gift Item</h3>
+        <p class="price">₹500 <span>₹700</span></p>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-box">
+        <span class="discount">-5%</span>
+        <img src="greeting3.jpg" alt="Product 3">
+        <div class="product-overlay">
+          <button class="product-btn"><i class="fas fa-heart"></i></button>
+          <button class="product-btn">Add To Cart</button>
+          <button class="product-btn"><i class="fas fa-share"></i></button>
+        </div>
+        <h3>Custom Gift</h3>
+        <p class="price">₹250<span>₹350</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section id="testimonials" style="background-color: #fcd5ce; padding: 60px 20px;">
+    <div style="text-align: center; margin-bottom: 40px;">
+      <h2 style="font-size: 2em; font-weight: bold;">
+        Customer's <span style="color: #d6336c;">Review</span>
+      </h2>
+    </div>
+
+    <div class="testimonial-container" id="review">
+      <div class="testimonial-card">
+        <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
+        <p>so far the best online platform to buy customized gifts!</p>
+        <div class="customer-info">
+          <div class="avatar">🎁</div>
+          <div>
+            <strong>vynshika</strong><br>
+            <span>Happy Customer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
+        <p>Excellent work! did not dissapoint</p>
+        <div class="customer-info">
+          <div class="avatar">🧑‍🎨</div>
+          <div>
+            <strong>purna</strong><br>
+            <span>Happy Customer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
+        <p>I really liked the product! they crafted every bit with love</p>
+        <div class="customer-info">
+          <div class="avatar">🎨</div>
+          <div>
+            <strong>keerthi suresh</strong><br>
+            <span>Happy Customer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h1 class="heading"> <span>Contact</span> Us </h1>
+    <div class="row">
+      <form action="#">
+        <input type="text" placeholder="name" class="box" required>
+        <input type="email" placeholder="email" class="box" required>
+        <input type="tel" placeholder="number" class="box" required>
+        <textarea placeholder="message" class="box" rows="5" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+      <div class="image">
+        <img src="crafty.jpeg"
+          alt="Girl doing craft" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <p>📞 +91 9000000001</p>
+        <p>📧 hercreations@gmail.com</p>
+        <p>📍 visakhapatnam, India</p>
+      </div>
+    </div>
+    <div class="credit">Created by <span>Her Creations</span> | All Rights Reserved</div>
+  </footer>
+
+</body>
+
+</html>
